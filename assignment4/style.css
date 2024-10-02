@@ -28,7 +28,7 @@ h1:before
     left:0;
     transform-origin: bottom;
     transform: rotateX(180deg);
-    line-height: 1.9em;
+    line-height: 1.95em;
     background: linear-gradient(0deg,#fff 0,transparent 80%);
     background-clip: text;
     color:transparent;
