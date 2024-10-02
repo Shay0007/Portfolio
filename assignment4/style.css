@@ -15,12 +15,11 @@ h1
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    .rampart-one-regular {
-  font-family: "Rampart One", system-ui;
+  font-family: "Brush Script MT";
   font-weight: 400;
   font-style: normal;
 }
-    color:#fff;
+    color:white;
     font-size:61px;
 }
 
