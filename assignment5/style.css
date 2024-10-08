@@ -1,0 +1,140 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+    box-sizing:border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    background:radial-gradient(#fadb9e, #38abbd);
+}
+
+
+.boxs{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    margin-bottom: 10px;   
+}
+
+.box{
+    height:70px;
+    width:190px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    transition: 3s ease-in-out;
+}
+
+.blue{background:blue;}
+.red{background:red;}
+.yellow{background:yellow;}
+.green{background:green;}
+.orange{background:orange;}
+.orchid{background:orchid;}
+.lawngreen{background:lawngreen;}
+
+.box:first-child{ 
+    animation: animate 11s infinite;
+}
+
+.box:nth-child(2) {
+    animation: animate 8s infinite;
+}
+
+.box:nth-child(3){
+    animation: animate 10s infinite;
+}
+
+.box:nth-child(4){
+    animation:animate 7s infinite;
+}
+
+.box:nth-child(5){
+    animation:animate 10s infinite;
+}
+
+.box:nth-child(6){
+    animation: animate 8s infinite;
+}
+
+.box:last-child {
+    animation: animate 11s infinite;
+}
+
+
+@keyframes animate{
+    0% {
+        rotate:0 deg;
+    }
+    25% {
+        transform:rotateY(90deg);
+        scale:0.5;
+    }
+
+50%{
+    transform:rotateY(180deg);
+}
+
+75%{
+    transform: rotateX(270deg);
+    border-radius: 50%;
+}
+
+100%{
+    transform: rotateY(360deg);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
