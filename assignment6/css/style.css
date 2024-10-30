@@ -1,0 +1,161 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	
+background-image:url(/assignment6/img/wallpaper.jpg);
+  font-family: "Tiny5", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+}
+
+
+#container {
+	background:none;
+    padding:10px;
+}
+section{
+    border: 3px solid black;
+    margin-bottom: 1em;
+}
+
+header{
+    padding: 10px;
+        font-size:2em;
+    line-height: 1.9em;
+    
+}
+
+header,footer{
+    background:#abd9e0;
+    padding:10px;
+}
+
+main header{
+    background:none;
+    font-size:1.9em;
+    
+}
+
+main{
+    padding:18px;
+}
+
+
+p{
+    margin:9px;
+    
+}
+
+section#Mytext{
+    background:pink;
+}
+section#Othertext{
+    background:#abe0b4;
+}
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	background:#f5ba7a;
+    #container{
+        width:725px;
+        margin:20px;
+    }
+    
+    header,footer{
+        background:none;
+    }
+    #container>header h1{
+        color:#b53586; 
+    }
+    
+    section#Mytext{
+    background:#c2abe0;
+    }
+    
+    section#Othertext{
+        background:#f5e77a;
+       
+    }
+    }
+    
+    
+     section#Mytext{
+        float:right;
+        width:40%
+    }
+     section#Othertext{
+        float:left;
+        width:40%
+            
+    }
+	 
+    footer{
+        clear:both;
+    }
+} /* closes 769px+ */
+
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+    #container{
+        
+    }	
+    section#Mytext{
+        float:right;
+        width:40%
+    }
+     section#Othertext{
+        float:left;
+        width:40%
+    }
+    
+    .mobile{
+        
+    }
+    
+    .desktop{
+        
+    }
+    
+    footer{
+        clear:both;
+    }
+    
+    
+    
+} /* closes 1024px+ */
+
+
+
