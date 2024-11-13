@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>Assignment 8</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+
+<header>
+<h1>Assignment 8</h1>
+<h2>Finish the Sentences</h2>
+</header>
+
+<main>
+<section id="text">
+			<header>
+				
+</header>
+<p class="first">"The early bird gets the"
+</p>
+<button class="one">Click for answer</button>
+<figure class="worm">
+<img src="img/worm.jpeg" alt="worm">
+<figcaption>Image of Worm</figcaption>
+</figure>
+    
+<p class="second">" Good things come to those who"
+</p>
+<button class="two">Click for answer</button>
+<figure class="wait">
+<img src="img/wait.jpg" alt="wait sign">
+<figcaption>Image of Sign</figcaption>
+</figure>
+<p class="third">"Don't put all of your eggs in one"
+</p>
+<button class="three">Click for answer</button>
+<figure class="basket">
+<img src="img/basket.jpg" alt="basket">
+<figcaption>Image of Basket</figcaption>
+</figure>
+<p class="fourth">"Laughter is the best"
+</p>
+<button class="four">Click for answer</button>
+<figure class="medicine">
+<img src="img/medicine.jpg" alt="medicine">
+<figcaption>Image of Medicine</figcaption>
+</figure>
+</section>
+</main>
+
+
+
+  </div><!-- close "container" -->
+  
+  
+
+  
+ <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+  $(document).ready(function() {
+
+$('figure.worm').hide();
+$('button.one').click(function() {
+$('figure.worm').fadeIn(1000);
+	});// close click function
+
+
+
+$('figure.wait').hide();
+
+$('button.two').click(function() {
+$('figure.wait').fadeIn(1000);
+	});// close click function
+
+
+
+$('figure.basket').hide();
+$('button.three').click(function() {
+$('figure.basket').fadeIn(1000);
+	});// close click function 
+
+
+
+$('figure.medicine').hide();
+$('button.four').click(function() {
+$('figure.medicine').fadeIn(1000);
+	});// close click function
+
+
+  }); //close .ready()
+</script>
+
+
+</body>
+	
+</html> 

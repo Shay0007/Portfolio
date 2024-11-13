@@ -1,0 +1,60 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+background:rgb(246,255,41);
+background: radial-gradient(circle, rgba(246,255,41,1) 0%, rgba(212,21,232,1) 100%);
+    
+	text-align: center;
+	color:#6c2cb0;
+}
+
+#container {
+	
+width: 500px;
+margin:auto;
+border: 10px white;
+padding:20px;
+	
+}
+
+
+#container {
+	
+}
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+
+
+		
+
+	#container {
+		width: 725px;
+		margin: auto;
+	}
+
+} /* closes 769px+ */
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+
+	#container {
+		width: 1030px;
+	}
+
+} /* closes 1024px+ */
