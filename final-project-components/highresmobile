@@ -1,4 +1,30 @@
-https://www.figma.com/proto/BaTVCL6RBEtEIadu1kBysH/Wireframes-Web-dev?node-id=63-2&t=TrmiJ30bU2ZjaNUM-1
 
-https://www.figma.com/design/BaTVCL6RBEtEIadu1kBysH/Wireframes-Web-dev?m=auto&t=TrmiJ30bU2ZjaNUM-6
-https://www.figma.com/design/BaTVCL6RBEtEIadu1kBysH/Wireframes-Web-dev?node-id=63-2&m=dev&t=TrmiJ30bU2ZjaNUM-1
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>high res mobile</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+
+
+
+<body>
+
+  <div id="container">
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/BaTVCL6RBEtEIadu1kBysH/Wireframes-Web-dev?node-id=63-2&embed-host=share" allowfullscreen></iframe>
+
+
+<footer>  <p>&copy;Shay Wilder,2024</p></footer>
+  </div><!-- close "container" -->
+  
+
+</body>
+	
+</html> 
